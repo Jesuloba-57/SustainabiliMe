@@ -22,3 +22,9 @@ jobs:
 
       - name: Test webpages
         run: python3 tests/test_basic.py
+        
+      - name: Test users
+        run: python3 tests/test_users.py
+        
+      - name: Test validation
+        run: python3 tests/test_validation.py
